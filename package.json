@@ -1,0 +1,39 @@
+{
+  "name": "spotify-playlist-downloader",
+  "version": "1.0.0",
+  "description": "Modern web application to download Spotify playlists as MP3 files with real-time progress tracking",
+  "main": "src/backend/server-web.js",
+  "scripts": {
+    "start": "node src/backend/server-web.js",
+    "dev": "node src/backend/server-web.js",
+    "server": "node src/backend/server-web.js"
+  },
+  "keywords": [
+    "spotify",
+    "downloader",
+    "music",
+    "playlist",
+    "mp3",
+    "web"
+  ],
+  "author": "Srijan Jana",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/spotify-downloader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/spotify-downloader/issues"
+  },
+  "homepage": "https://github.com/yourusername/spotify-downloader#readme"
+}
